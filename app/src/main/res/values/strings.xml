@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Flex</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="register"><u><b>Register</b></u></string>
+    <string name="name"><u><b>Name</b></u></string>
+    <string name="deadline"><u><b>Deadline</b></u></string>
+    <string name="desc"><u><b>Description</b></u></string>
+    <string name="note"><u><b>Stage Note</b></u></string>
+    <string name="add"><u><b>Address</b></u></string>
+    <!-- update medicine dialog vars -->
+    <string name="yes">OK</string>
+    <string name="no">Cancel</string>
+    <!-- ****** -->
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_nav_demo">NavDemoActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="channel_name">alert-task</string>
+    <string name="channel_description">You have Tasks to Do</string>
+
+    <string-array name="types">
+        <item>On The Way</item>
+        <item>Waiting Room</item>
+        <item>Meeting Started</item>
+        <item>Meeting Ended</item>
+    </string-array>
+</resources>

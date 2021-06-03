@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@drawable/task_bg6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <com.romainpiel.shimmer.ShimmerTextView
+            android:id="@+id/title_type"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Type"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="#444"
+            android:textSize="30sp"/>
+    <TextView
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/name"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#6b8e23"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/title_name" />
+
+    <TextView
+            android:gravity="center"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/nameView" />
+    <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <ImageView
+                android:id ="@+id/map_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/map_icon"
+                android:scaleType="fitXY"/>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+            <TextView
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:text="@string/add"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#6b8e23"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+
+                    android:id="@+id/title_add" />
+            <TextView
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/addView" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <TextView
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/deadline"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#6b8e23"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/title_dead" />
+
+    <TextView
+            android:gravity="center"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/deadView" />
+    <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:background="@drawable/status_button_border_before_click"
+                android:layout_marginLeft="0dp"
+                android:textSize="12dp"
+                android:id="@+id/onthewayButton"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="On The Way"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                style="?attr/materialButtonOutlinedStyle"
+        />
+        <Button
+                android:background="@drawable/status_button_border_before_click"            android:textSize="12dp"
+                android:id="@+id/waitingroomButton"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Waiting"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                style="?attr/materialButtonOutlinedStyle"
+        />
+        <Button
+                android:background="@drawable/status_button_border_before_click"            android:textSize="12dp"
+                android:id="@+id/meetingButton"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Meeting"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                style="?attr/materialButtonOutlinedStyle"
+        />
+    </LinearLayout>
+
+    <TextView
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="@string/note"
+            android:textSize="18sp"
+            android:textColor="#6b8e23"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/title_note" />
+    <EditText
+            android:id="@+id/editStageNote"
+            android:text=""
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittextbackground"
+    />
+
+    <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/deduct_med_Button"
+                android:enabled="false"
+                android:visibility="invisible"
+                android:background="@drawable/medi_bag"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="58dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/updateButton"
+                android:text="Save"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                style = "@style/BlueButton"
+        />
+        <Button
+                android:id="@+id/orderButton"
+                android:enabled="false"
+                android:visibility="invisible"
+                android:text="Order"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                style = "@style/BlueButton"
+        />
+        <Button
+                android:id="@+id/reportButton"
+                android:text="Report"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                style = "@style/BlueButton"
+        />
+    </LinearLayout>
+</LinearLayout>

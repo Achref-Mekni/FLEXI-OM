@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1024165783963",
+    "firebase_url": "https://flexi-om-default-rtdb.firebaseio.com",
+    "project_id": "flexi-om",
+    "storage_bucket": "flexi-om.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024165783963:android:dc14e615b40f568b00593e",
+        "android_client_info": {
+          "package_name": "com.example.flex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024165783963-fpm5ln0c7dk2ise06cb03rl7lra2fa3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaWD2_3wY5iumOnjBjgMtn1M4NTxD02yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024165783963-fpm5ln0c7dk2ise06cb03rl7lra2fa3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
